@@ -1,4 +1,5 @@
-window.WORD_BANK = [
+
+export const WORD_BANK = [
   "Innovation",
   "Integrity",
   "Customer delight",

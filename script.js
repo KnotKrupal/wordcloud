@@ -1,8 +1,5 @@
-const { WORD_BANK } = window;
 
-if (!Array.isArray(WORD_BANK) || WORD_BANK.length === 0) {
-  throw new Error("WORD_BANK is missing or empty. Ensure words.js is loaded before script.js.");
-}
+import { WORD_BANK } from "./words.js";
 
 const hero = document.querySelector(".hero");
 const wordField = document.getElementById("word-cloud");
