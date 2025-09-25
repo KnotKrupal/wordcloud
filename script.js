@@ -1,3 +1,4 @@
+
 import { WORD_BANK } from "./words.js";
 
 const hero = document.querySelector(".hero");

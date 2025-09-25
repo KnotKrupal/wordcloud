@@ -1,3 +1,4 @@
+
 export const WORD_BANK = [
   "Innovation",
   "Integrity",
